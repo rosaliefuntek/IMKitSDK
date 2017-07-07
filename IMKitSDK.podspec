@@ -36,7 +36,7 @@ TODO: Add long description of the pod here.
   #   'IMKit' => ['IMKit/Assets/*.png']
   # }
 
-  s.ios.public_header_files = 'frameworks/**/*.h'
+  s.ios.public_header_files = 'frameworks/IMKit.framework/Headers/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   s.ios.vendored_frameworks = 'frameworks/IMKit.framework'
   s.ios.preserve_path = 'frameworks/IMKit.framework'

@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "IMKit-Swift.h"
+#import "IMKit.h"
 
 FOUNDATION_EXPORT double IMKitSDKVersionNumber;
 FOUNDATION_EXPORT const unsigned char IMKitSDKVersionString[];
