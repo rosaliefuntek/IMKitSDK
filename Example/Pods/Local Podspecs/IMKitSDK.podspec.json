@@ -20,9 +20,7 @@
   },
   "ios": {
     "source_files": "IMKitSDK/Classes/**/*",
-    "public_header_files": "frameworks/IMKit.framework/Headers/*.h",
     "vendored_frameworks": "frameworks/IMKit.framework",
-    "preserve_paths": "frameworks/IMKit.framework",
     "frameworks": "UIKit",
     "dependencies": {
       "AFNetworking": [

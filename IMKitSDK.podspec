@@ -26,6 +26,7 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'rosalie' => 'rosalie@funtek.co' }
   s.source           = { :git => 'https://github.com/rosaliefuntek/IMKit.git', :tag => s.version.to_s }
+  #s.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '${PODS_ROOT}/frameworks' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.2'
@@ -36,10 +37,10 @@ TODO: Add long description of the pod here.
   #   'IMKit' => ['IMKit/Assets/*.png']
   # }
 
-  s.ios.public_header_files = 'frameworks/IMKit.framework/Headers/*.h'
+  #s.ios.public_header_files = 'frameworks/IMKit.framework/Headers/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   s.ios.vendored_frameworks = 'frameworks/IMKit.framework'
-  s.ios.preserve_path = 'frameworks/IMKit.framework'
+  #s.ios.preserve_path = 'frameworks/IMKit.framework'
 
   # s.dependency 'AFNetworking', '~> 2.3'
 

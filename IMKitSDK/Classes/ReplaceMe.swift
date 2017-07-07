@@ -1,3 +1,6 @@
 import IMKit;
 
-let a = IMRoomTableViewController();
+func hello() -> IMRoomTableViewController{
+    let a = IMRoomTableViewController()
+    return a
+}
