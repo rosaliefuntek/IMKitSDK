@@ -1,5 +1,50 @@
 PODS:
-  - IMKitSDK (0.1.0)
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - Alamofire (4.4.0)
+  - AlamofireImage (3.2.0):
+    - Alamofire (~> 4.1)
+  - IMKitSDK (0.1.0):
+    - AFNetworking (~> 2.3)
+    - Alamofire (~> 4.4.0)
+    - AlamofireImage (~> 3.2.0)
+    - JSQMessagesViewController (~> 7.3.4)
+    - ReachabilitySwift (~> 3)
+    - RealmSwift (~> 2.6.2)
+    - SKPhotoBrowser (~> 4.0.1)
+    - Socket.IO-Client-Swift (~> 8.3.3)
+    - SwiftyJSON (~> 3.1.4)
+  - JSQMessagesViewController (7.3.4):
+    - JSQSystemSoundPlayer (~> 2.0.1)
+  - JSQSystemSoundPlayer (2.0.1)
+  - ReachabilitySwift (3)
+  - Realm (2.6.2):
+    - Realm/Headers (= 2.6.2)
+  - Realm/Headers (2.6.2)
+  - RealmSwift (2.6.2):
+    - Realm (= 2.6.2)
+  - SKPhotoBrowser (4.0.1)
+  - Socket.IO-Client-Swift (8.3.3)
+  - SwiftyJSON (3.1.4)
 
 DEPENDENCIES:
   - IMKitSDK (from `../`)
@@ -9,8 +54,19 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  IMKitSDK: 3fca198a25304953f6c3230ab29b6337bd66111d
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  AlamofireImage: 157ed682cc81d3b9db4fb90c1f12180ac552d93b
+  IMKitSDK: 6ee525e0d9f1a4378f225cb0029062f27979c148
+  JSQMessagesViewController: 39fed975e3c9f8eba7292071e29eeb541d105e66
+  JSQSystemSoundPlayer: c5850e77a4363ffd374cd851154b9af93264ed8d
+  ReachabilitySwift: f5b9bb30a0777fac8f09ce8b067e32faeb29bb64
+  Realm: 29222766425b9f831228f81b63f0e38a97a4d700
+  RealmSwift: d161a80f96cb91ae88391a7d5a9cf08024a7bc8e
+  SKPhotoBrowser: 3a7c6fc02aa1620ab17253a47a49fafda46536e8
+  Socket.IO-Client-Swift: a2faffdbde89c63aebc5d631041530c1068b02b8
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
 
-PODFILE CHECKSUM: eeb5e0dab2b7f36628435b8d00330a6476b07161
+PODFILE CHECKSUM: 0c67cf84321982aab5aafca1b016d1c662e9c620
 
 COCOAPODS: 1.2.1

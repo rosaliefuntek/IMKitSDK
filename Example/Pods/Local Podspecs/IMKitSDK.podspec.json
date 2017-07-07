@@ -1,22 +1,57 @@
 {
   "name": "IMKitSDK",
   "version": "0.1.0",
-  "summary": "A short description of IMKitSDK.",
+  "summary": "A short description of IMKit.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/haifeng@cocoaspice.in/IMKitSDK",
+  "homepage": "https://github.com/rosaliefuntek/IMKit",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "haifeng@cocoaspice.in": "rosalie@funtek.co"
+    "rosalie": "rosalie@funtek.co"
   },
   "source": {
-    "git": "https://github.com/haifeng@cocoaspice.in/IMKitSDK.git",
+    "git": "https://github.com/rosaliefuntek/IMKit.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "10.2"
   },
-  "source_files": "IMKitSDK/Classes/**/*"
+  "ios": {
+    "source_files": "IMKitSDK/Classes/**/*",
+    "public_header_files": "frameworks/**/*.h",
+    "vendored_frameworks": "frameworks/IMKit.framework",
+    "preserve_paths": "frameworks/IMKit.framework",
+    "frameworks": "UIKit",
+    "dependencies": {
+      "AFNetworking": [
+        "~> 2.3"
+      ],
+      "JSQMessagesViewController": [
+        "~> 7.3.4"
+      ],
+      "RealmSwift": [
+        "~> 2.6.2"
+      ],
+      "Alamofire": [
+        "~> 4.4.0"
+      ],
+      "AlamofireImage": [
+        "~> 3.2.0"
+      ],
+      "SwiftyJSON": [
+        "~> 3.1.4"
+      ],
+      "Socket.IO-Client-Swift": [
+        "~> 8.3.3"
+      ],
+      "ReachabilitySwift": [
+        "~> 3"
+      ],
+      "SKPhotoBrowser": [
+        "~> 4.0.1"
+      ]
+    }
+  }
 }

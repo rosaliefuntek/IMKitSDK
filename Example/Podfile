@@ -1,4 +1,8 @@
+source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
+
+#only 9.0 supports custom user agent
+platform :ios, '10.2'
 
 target 'IMKitSDK_Example' do
   pod 'IMKitSDK', :path => '../'
