@@ -23,7 +23,7 @@ PODS:
   - Alamofire (4.4.0)
   - AlamofireImage (3.2.0):
     - Alamofire (~> 4.1)
-  - IMKitSDK (0.3.0):
+  - IMKitSDK (0.4.0):
     - AFNetworking (~> 2.3)
     - Alamofire (~> 4.4.0)
     - AlamofireImage (~> 3.2.0)
@@ -57,7 +57,7 @@ SPEC CHECKSUMS:
   AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
   Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
   AlamofireImage: 157ed682cc81d3b9db4fb90c1f12180ac552d93b
-  IMKitSDK: 3a4cdf002a6aaa349cea1536971d311f2a29ea75
+  IMKitSDK: 02b7af0bcf263aa9effcd557dee019cec94fdcba
   JSQMessagesViewController: 39fed975e3c9f8eba7292071e29eeb541d105e66
   JSQSystemSoundPlayer: c5850e77a4363ffd374cd851154b9af93264ed8d
   ReachabilitySwift: f5b9bb30a0777fac8f09ce8b067e32faeb29bb64
