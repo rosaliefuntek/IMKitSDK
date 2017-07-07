@@ -5,7 +5,7 @@ use_frameworks!
 platform :ios, '10.2'
 
 target 'IMKitSDK_Example' do
-  pod 'IMKitSDK', :path => '../'
+  pod 'IMKitIOS', :path => '../'
 
   target 'IMKitSDK_Tests' do
     inherit! :search_paths

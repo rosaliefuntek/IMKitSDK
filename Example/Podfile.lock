@@ -23,7 +23,7 @@ PODS:
   - Alamofire (4.4.0)
   - AlamofireImage (3.2.0):
     - Alamofire (~> 4.1)
-  - IMKitSDK (0.6.0):
+  - IMKitIOS (0.7.0):
     - AFNetworking (~> 2.3)
     - Alamofire (~> 4.4.0)
     - AlamofireImage (~> 3.2.0)
@@ -47,17 +47,17 @@ PODS:
   - SwiftyJSON (3.1.4)
 
 DEPENDENCIES:
-  - IMKitSDK (from `../`)
+  - IMKitIOS (from `../`)
 
 EXTERNAL SOURCES:
-  IMKitSDK:
+  IMKitIOS:
     :path: "../"
 
 SPEC CHECKSUMS:
   AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
   Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
   AlamofireImage: 157ed682cc81d3b9db4fb90c1f12180ac552d93b
-  IMKitSDK: 4b362f31ee1d6ba464383821f4de586526a01a8e
+  IMKitIOS: 510641c3db5c985e8e86c31acc868a92fe262d54
   JSQMessagesViewController: 39fed975e3c9f8eba7292071e29eeb541d105e66
   JSQSystemSoundPlayer: c5850e77a4363ffd374cd851154b9af93264ed8d
   ReachabilitySwift: f5b9bb30a0777fac8f09ce8b067e32faeb29bb64
@@ -67,6 +67,6 @@ SPEC CHECKSUMS:
   Socket.IO-Client-Swift: a2faffdbde89c63aebc5d631041530c1068b02b8
   SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
 
-PODFILE CHECKSUM: 0c67cf84321982aab5aafca1b016d1c662e9c620
+PODFILE CHECKSUM: 1288aa0e4b4aef90943b43bd144ec7f2bb4b4bae
 
 COCOAPODS: 1.2.1

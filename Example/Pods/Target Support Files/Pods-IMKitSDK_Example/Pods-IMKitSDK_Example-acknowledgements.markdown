@@ -70,7 +70,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 
-## IMKitSDK
+## IMKitIOS
 
 Copyright (c) 2017 haifeng@cocoaspice.in <rosalie@funtek.co>
 
